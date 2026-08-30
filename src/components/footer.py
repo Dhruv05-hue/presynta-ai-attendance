@@ -140,8 +140,7 @@ def footer_dashboard():
 <div class="presynta-dashboard-footer">
 
 <div class="presynta-dashboard-footer-content">
-<span>Powered by</span>
-<strong>PRESYNTA</strong>
+<strong> © 2026 PRESYNTA · AI Powered Attendance System </strong>
 </div>
 
 <img
