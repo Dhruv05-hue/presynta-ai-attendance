@@ -25,10 +25,8 @@ def auto_enroll_dialog(subject_code):
 
     if not res.data:
 
-        st.markdown(
-            textwrap.dedent(
-                """
-                <div class="presynta-enroll-status">
+        st.html(
+                """<div class="presynta-enroll-status">
 
                     <div class="presynta-status-icon presynta-error-icon">
                         !
@@ -110,8 +108,7 @@ def auto_enroll_dialog(subject_code):
 
                 </style>
                 """
-            ),
-            unsafe_allow_html=True,
+            
         )
 
         if st.button(
@@ -149,10 +146,8 @@ def auto_enroll_dialog(subject_code):
 
     if check.data:
 
-        st.markdown(
-            textwrap.dedent(
-                f"""
-                <div class="presynta-enroll-status">
+        st.html(
+                f"""<div class="presynta-enroll-status">
 
                     <div class="presynta-status-icon presynta-success-icon">
                         ✓
@@ -240,8 +235,6 @@ def auto_enroll_dialog(subject_code):
 
                 </style>
                 """
-            ),
-            unsafe_allow_html=True,
         )
 
         if st.button(
