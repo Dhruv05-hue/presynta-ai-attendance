@@ -4,7 +4,7 @@
 
 PRESYNTA is a modern **AI-powered attendance management platform** designed to make classroom attendance faster, smarter, and easier to manage.
 
-Built with **Python, Streamlit, Supabase, Computer Vision, and Voice Recognition**, PRESYNTA allows teachers to manage subjects, enroll students, capture classroom attendance using faces or voices, review AI-generated results, and explore detailed attendance records.
+Built with **Python, Streamlgit it, Supabase, Computer Vision, and Voice Recognition**, PRESYNTA allows teachers to manage subjects, enroll students, capture classroom attendance using faces or voices, review AI-generated results, and explore detailed attendance records.
 
 Students receive their own portal for managing subjects and viewing attendance information.
 

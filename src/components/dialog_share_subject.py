@@ -7,7 +7,7 @@ import io
 @st.dialog("Share Subject")
 def share_subject_dialog(subject_name, subject_code):
 
-    app_domain = "https://snapclass-intelligent-attendance.streamlit.app"
+    app_domain = "https://presynta-attendance.streamlit.app/"
     join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.html(
