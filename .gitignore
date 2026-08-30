@@ -1,0 +1,11 @@
+.env
+.vscode
+
+*.pyc
+__pycache__/
+
+venv311/
+venv/
+old_requirements.txt
+
+.streamlit/

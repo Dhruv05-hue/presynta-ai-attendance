@@ -1,0 +1,89 @@
+# =====================================================
+# AI Attendance System - Python Dependencies
+# =====================================================
+
+
+# =====================================================
+# Utilities
+# =====================================================
+
+streamlit
+# Creates the web interface for the AI Attendance System.
+# Used to build dashboards, login pages, camera interface,
+# attendance reports, and admin panels without HTML/CSS.
+
+numpy
+# Numerical computing library.
+# Used for working with arrays, matrices, image data, and mathematical operations.
+
+pandas
+# Used for handling tables (DataFrames), CSV files, Excel files,
+# attendance records, and data analysis.
+
+
+# =====================================================
+# Face Recognition & Machine Learning
+# =====================================================
+
+scikit-learn
+# Machine Learning library.
+# Used for preprocessing, similarity calculations, model evaluation,
+# and other ML algorithms.
+
+dlib-bin
+# Precompiled version of Dlib.
+# Detects human faces and extracts facial landmarks.
+# Also generates 128-dimensional face embeddings used for recognition.
+
+git+https://github.com/ageitgey/face_recognition_models
+# Downloads pretrained face recognition models.
+# Contains CNN and ResNet models used by the face_recognition library
+# for face detection and encoding.
+
+setuptools<70.0.0
+# Keeps setuptools at a compatible version.
+# Prevents installation/build issues with dlib and face recognition packages.
+
+
+# =====================================================
+# Database & Authentication
+# =====================================================
+
+supabase
+# Python client for Supabase.
+# Used to connect your application to the Supabase database,
+# perform CRUD operations, authentication, and storage.
+
+bcrypt
+# Password hashing library.
+# Used to securely hash and verify passwords before storing them in the database.
+
+
+# =====================================================
+# QR Code Generation
+# =====================================================
+
+segno
+# Generates QR Codes.
+# Can be used for student IDs, attendance check-in,
+# or sharing unique verification links.
+
+
+# =====================================================
+# Image Processing
+# =====================================================
+
+pillow
+# Python Imaging Library (PIL).
+# Used for opening, resizing, cropping, and saving images.
+# Helpful before sending images for face recognition.
+
+
+# =====================================================
+# Frontend / Web Application
+# =====================================================
+
+
+
+librosa
+resemblyzer
