@@ -10,8 +10,7 @@ def footer_home():
 <div class="presynta-footer-line"></div>
 
 <div class="presynta-footer-content">
-<span>Powered by</span>
-<strong>PRESYNTA</strong>
+<strong>© 2026 PRESYNTA · AI Powered Attendance System</strong>
 </div>
 
 <div class="presynta-footer-line"></div>
