@@ -639,7 +639,7 @@ def teacher_tab_manage_subjects():
 
     else:
 
-        st.markdown(
+        st.html(
             """<div class="presynta-empty-state">
 
                 <div class="presynta-empty-icon">
@@ -652,8 +652,7 @@ def teacher_tab_manage_subjects():
                     Create a subject to start building your classroom.
                 </p>
 
-            </div>
-            """
+            </div>"""
         )
 
 
