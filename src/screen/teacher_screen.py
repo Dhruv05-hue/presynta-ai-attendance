@@ -274,7 +274,7 @@ def teacher_tab_take_attendance():
                 <p>
                     Create your first subject before taking attendance.
                     </br>
-                    Just click manage subject and create a new subject.
+                    Just click Manage subjects and create a new subject.
                 </p>
 
             </div>
