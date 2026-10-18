@@ -262,7 +262,7 @@ def teacher_tab_take_attendance():
 
     if not subjects:
 
-        st.markdown(
+        st.html(
             """
             <div class="presynta-empty-state">
 
@@ -277,8 +277,7 @@ def teacher_tab_take_attendance():
                 </p>
 
             </div>
-            """,
-            unsafe_allow_html=True
+            """
         )
 
         return
