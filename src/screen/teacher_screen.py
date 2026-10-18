@@ -267,7 +267,6 @@ def teacher_tab_take_attendance():
             <div class="presynta-empty-state">
 
                 <div class="presynta-empty-icon">
-                    +
                 </div>
 
                 <h3>No subjects yet</h3>
